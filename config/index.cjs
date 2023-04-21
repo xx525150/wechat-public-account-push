@@ -8,22 +8,22 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx6c33c93431d04fb1',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: '28b66f66a01b077461a5b9d21efd5bf8',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '沈阳',
+  CITY: '沈河区',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '宝宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: '新的一天开始啦，新的开心从早开始',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: '希望亲爱的今天开心呀',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
@@ -51,13 +51,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'MmUvZAzgcZZkRe4dmghbwPTYFcEyFQjrIQke_TrhSek',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'o9cj655pVcWfYcQmdgIK6A8Yp8U4',
     }
   ],
 
